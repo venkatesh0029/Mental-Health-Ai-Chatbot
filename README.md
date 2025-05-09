@@ -31,3 +31,48 @@ Talk-Ease is a simple, interactive AI-powered chatbot designed to offer mental w
 git clone https://github.com/venkatesh0029/Talk-Ease chatbot.git
 cd luma-chatbot
 
+### 2. Set Up Python Environment
+Install the necessary packages:
+
+bash
+Copy
+Edit
+pip install flask flask-cors tensorflow
+3. Install and Run Ollama
+Install Ollama from https://ollama.com
+
+Then download and run the LLaMA model:
+
+bash
+Copy
+Edit
+ollama pull llama3
+ollama run llama3
+(Keep this running in a separate terminal while chatting.)
+
+4. Run the Flask Backend
+bash
+Copy
+Edit
+python app.py
+5. Open the Frontend
+Open index.html in your browser.
+
+You’re ready to chat with Luma!
+
+🗂️ Project Structure
+bash
+Copy
+Edit
+luma-chatbot/
+├── app.py           # Flask backend
+├── index.html       # Chat UI
+├── style.css        # Styling
+├── script.js        # Frontend logic
+└── README.md        # Documentation
+💡 Optional: Add Emotion Detection
+You can plug in a TensorFlow model for detecting sentiment or emotional tone from user messages to adapt chatbot responses accordingly.
+
+📄 License
+This project is licensed under the MIT License.
+
