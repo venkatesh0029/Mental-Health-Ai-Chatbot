@@ -1,4 +1,4 @@
-# Talk-Ease - Mental Health AI Chatbot000
+# Talk-Ease - Mental Health AI Chatbot
 
 Talk-Ease is a simple, interactive AI-powered chatbot designed to offer mental wellness support through natural conversations. Built using Flask, HTML/CSS/JavaScript, and powered by Meta's LLaMA model (via Ollama), it also integrates TensorFlow for optional emotion analysis.
 
