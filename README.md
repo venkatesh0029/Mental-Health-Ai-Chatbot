@@ -43,7 +43,7 @@ pip install flask flask-cors tensorflow
 
 ---
 
-3. Install and Run Ollama
+### 3. Install and Run Ollama
 Install Ollama from https://ollama.com
 
 Then download and run the LLaMA model:
@@ -57,7 +57,7 @@ ollama run llama3
 
 ---
 
-4. Run the Flask Backend
+### 4. Run the Flask Backend
 bash
 Copy
 Edit
